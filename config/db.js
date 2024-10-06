@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 // Reemplaza 'your-elastic-ip' y 'your-db-name' con tu IP elástica y el nombre de tu base de datos
-const uri = 'mongodb://your-elastic-ip:27017/your-db-name';
+const uri = 'mongodb://3.234.197.222:27017/MS_Evaluaciones';
 
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => {
